@@ -1,0 +1,347 @@
+
+nav {
+ 
+  background-color: #ffb6c1;
+  padding: 15px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 1000; 
+  margin-top: 15px;
+}
+
+body {
+  background-color: rgb(240, 200, 208);
+  background-image: url("pinkbground.jpg");
+  cursor: url('8c0e6daa85768b9039f34e4cbbdea606.png'), default;
+  padding-top: 70px; 
+  color: #ffffff;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  text-align: center; 
+}
+
+nav ul li {
+  display: inline; 
+  margin: 0 15px; 
+}
+
+nav ul li a {
+  text-decoration: none; 
+  font-size: 15px;
+  font-family: 'Arial', sans-serif;
+  color: white; 
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+nav ul li a:hover {
+  background-color: #ff69b4; 
+  color: white; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+nav ul li a:active {
+  background-color: #ff1493; 
+  color: white;
+}
+
+
+
+.spann{
+  color: red;
+  font-style: bold;
+}
+
+
+h1, h2, h3, h4 {
+    color: rgb(255, 255, 255);
+}
+
+h1{
+  font-size: 75px;
+  text-shadow: 5px 5px 10px rgba(37, 3, 53, 0.435);
+
+}
+.heading{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.GSU {
+  max-width: 400px;
+  width: fit-content; 
+  text-align: center; 
+  margin: 20px auto; 
+  padding: 10px; 
+  background-color: #ff9ff4; 
+  border: 5px solid #f2cda0; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  font-style: bold;
+  color: #f2e8ed;
+  margin-bottom: 100px;
+}
+
+.GSU a {
+
+  color: #f2e8ed; 
+  font-weight: bold; 
+  font-size: 20px; 
+}
+
+
+.GSU a:hover {
+  color: #ff1493; 
+  text-decoration: underline; 
+}
+
+
+.GSU img {
+  margin-top: 10px; 
+  border-radius: 5px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.teab {
+  background-image: url('leop.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+#zebra-list {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 25px;
+}
+
+#zebra-list th, #zebra-list td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #f8f6f6;
+  width: 50%;
+}
+
+#zebra-list tr:nth-child(even) {
+  background-color: #dd5898; 
+}
+
+#zebra-list tr:nth-child(odd) {
+  background-color: #e490cf; 
+}
+
+#zebra-list a {
+  text-decoration: underline;
+  color: #fceec7; 
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#zebra-list  a:hover {
+  color: #ff1493; 
+  text-decoration: underline; 
+}
+
+#zebra-list th {
+  background-color: #e490cf;
+
+  color: white;
+  font-weight: bold;
+}
+
+  
+ul{
+    list-style-type: disc;
+    color: white;
+}
+
+h2{
+  text-align: center;
+}
+
+
+
+
+
+.h {
+  background-image: url('leop.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  padding: 5px; 
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin-top: 50px;
+}
+
+
+
+.Hobbies {
+  
+  background-color: #ff9ff4; 
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  font-size: 25px;
+}
+
+
+.Hobbies a {
+  text-decoration: underline;
+  color: #ff1493; 
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.Hobbies a:hover {
+  color: #742563; 
+  text-decoration: underline; 
+}
+h3{
+  text-align: center;
+}
+
+
+.education-and-jobs {
+
+  background-color: #ff9ff4; 
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  font-size: 25px;
+
+}
+
+
+.education-and-jobs a {
+  text-decoration: underline;
+  color: #ff1493; 
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.education-and-jobs a:hover {
+  color: #742563; 
+  text-decoration: underline; 
+}
+
+
+
+
+.es {
+  background-image: url('leop.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  padding: 5px; 
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin-top: 50px;
+}
+
+.education-and-jobs ul {
+  list-style-type: disc; 
+}
+
+.education-and-jobs ol {
+  list-style-type: decimal; 
+
+}
+
+.education-and-jobs li {
+  margin: 10px 0;
+  color: #fff7f7;
+}
+
+
+
+.quote {
+
+  background-color: #ff9ff4; 
+  padding: 20px;
+  margin: 20px;
+  font-size: 25px;
+  color: #ffffff;
+
+}
+.q {
+  background-image: url('leop.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  padding: 5px; 
+  border-radius: 2px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+}
+
+
+.website {
+
+  background-color: #ff9ff4; 
+  padding: 20px;
+  margin: 20px;
+  font-size: 25px;
+  color: #ffffff;
+
+}
+.w {
+  background-image: url('leop.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  padding: 5px; 
+  border-radius: 2px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  margin-top: 50px;
+}
+
+.w a {
+  text-decoration: underline;
+  color: #ff1493; 
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.w a:hover {
+  color: #742563; 
+  text-decoration: underline; 
+}
